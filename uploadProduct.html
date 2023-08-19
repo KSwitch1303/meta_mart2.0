@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UPLOAD PRODUCT</title>
+    <script type="text/javascript"
+      src="app.js">
+    </script>
+  </head>
+  <body>
+    <h3>UPLOAD PRODUCT</h3>
+    <div>
+      <select onchange="dropList2Changer()" id="dL" name="people" class="dropList">
+      </select>
+      <button onclick="createProduct()">
+        Create Profle
+      </button>
+    </div>
+    
+    <br>
+    
+    <div>
+      <select id="dL2" name="product" class="dropList2">
+      </select>
+    </div>
+    
+    <br>
+    
+    <div>
+      <input placeholder="Category NAME" class="inBox1">
+      <input placeholder="Category Detail" class="inBox2">
+    </div>
+
+    <br>
+    
+    <div>
+      <button onclick="
+        submitt()
+      ">
+        submit
+      </button>
+      <br><br>
+      <button><a href="/createprofle.html">
+        BACK
+      </a></button>
+    </div>
+    
+    <script src="dropList.js"></script> 
+  </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CREATE PROFILE</title>
+  </head>
+  <body>
+    <h3>CREATE PROFILE</h3>
+
+    <h2></h2>
+    <input placeholder="Name" class="inbox1">
+    <button onclick="
+      let profileName = document.querySelector('.inbox1');
+      addToProfile(profileName.value);
+    ">
+      submit
+    </button>
+    <p></p>
+    <button onclick="
+      clearDB()
+    ">
+      CLEAR DB
+    </button>
+    <button><a href="/uploadProduct.html">
+      DONE
+    </a>
+    </button>
+    <script src="app.js"></script>
+  </body>
+</html>

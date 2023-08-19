@@ -1,0 +1,16 @@
+{
+  "store":{ 
+    "name": "nike",
+    "product": "shoes",
+    "productlist": {
+      "product1": {
+        "name": "airforce 1",
+        "price": 15000
+      },
+      "product2": {
+        "name": "airforce 2",
+        "price": 50000
+      }
+  }
+}
+}
